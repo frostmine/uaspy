@@ -1,6 +1,7 @@
-class App():
-    pass
-
+from core.baseapp import *
+class App(BaseApp):
+    def on_playing():
+        pass
 if __name__ == "__main__":
-    theApp = App()
+    theApp = BaseApp()
     theApp.run()
